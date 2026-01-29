@@ -24,7 +24,7 @@ class TipoSolicitudSeeder extends Seeder
         $a->save();
 
         $a = new TipoSolicitud();
-        $a->id = 1;
+        $a->id = 3;
         $a->nombre="Documentos";
         $a->save();
     }

@@ -63,7 +63,7 @@ Copia el archivo de ejemplo:
 cp .env.example .env
 ```
 
-Edita el archivo `.env` y configura al menos lo siguiente:
+Edita el archivo `.env` y configura al menos lo siguiente: 
 
 ```env
 APP_NAME=Prometeus
@@ -78,6 +78,10 @@ DB_PORT=3306
 DB_DATABASE=prometeus
 DB_USERNAME=tu_usuario
 DB_PASSWORD=tu_password
+```
+Si deseas usar SQLite, solo debes cambiar
+```env
+DB_CONNECTION=sqlite
 ```
 
 ---

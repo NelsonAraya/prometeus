@@ -90,10 +90,10 @@ php artisan key:generate
 
 ---
 
-### 6️⃣ Ejecutar migraciones
+### 6️⃣ Ejecutar migraciones y Seeder
 
 ```bash
-php artisan migrate
+php artisan migrate --seed
 ```
 
 > ⚠️ Asegúrate de que la base de datos exista antes de ejecutar este comando.
